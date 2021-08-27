@@ -12,7 +12,7 @@ public class Connect4GUI extends JFrame
 	JLabel label,label2;
 	public Connect4GUI(String[][] discs, String statusMessage, String previousStatusMessage)
 	{
-		super("Gurvinder's Connect 4");
+		super("Connect 4");
 		String discsReverse[][] = new String[6][7];
 		for(int i = 0;i < 6; i++)
 		{
